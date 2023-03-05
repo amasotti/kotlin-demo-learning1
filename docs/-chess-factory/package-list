@@ -1,0 +1,40 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:com.bikeleasing.antoniotest.factory////PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.factory/index.html
+$dokka.location:com.bikeleasing.antoniotest.factory/PieceFactory///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.factory/-piece-factory/index.html
+$dokka.location:com.bikeleasing.antoniotest.factory/PieceFactory/PieceFactory/#kotlin.collections.List[kotlin.String]?/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.factory/-piece-factory/-piece-factory.html
+$dokka.location:com.bikeleasing.antoniotest.factory/PieceFactory/createPieces/#/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.factory/-piece-factory/create-pieces.html
+$dokka.location:com.bikeleasing.antoniotest.factory/PieceFactory/test/#/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.factory/-piece-factory/test.html
+$dokka.location:com.bikeleasing.antoniotest.factory/TestAnnotation///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.factory/-test-annotation/index.html
+$dokka.location:com.bikeleasing.antoniotest.factory/TestAnnotation/value/#/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.factory/-test-annotation/value.html
+$dokka.location:com.bikeleasing.antoniotest.models////PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/Bishop///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-bishop/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/Bishop/Bishop/#kotlin.String/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-bishop/-bishop.html
+$dokka.location:com.bikeleasing.antoniotest.models/InvalidPositionException///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-invalid-position-exception/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/InvalidPositionException/InvalidPositionException/#kotlin.String/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-invalid-position-exception/-invalid-position-exception.html
+$dokka.location:com.bikeleasing.antoniotest.models/King///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-king/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/King/King/#kotlin.String/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-king/-king.html
+$dokka.location:com.bikeleasing.antoniotest.models/Knight///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-knight/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/Knight/Knight/#kotlin.String/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-knight/-knight.html
+$dokka.location:com.bikeleasing.antoniotest.models/Pawn///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-pawn/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/Pawn/Pawn/#kotlin.String/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-pawn/-pawn.html
+$dokka.location:com.bikeleasing.antoniotest.models/Piece.BoardValidator///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-piece/-board-validator/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/Piece.BoardValidator/validateChessBoard/#kotlin.collections.List[com.bikeleasing.antoniotest.models.Piece]/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-piece/-board-validator/validate-chess-board.html
+$dokka.location:com.bikeleasing.antoniotest.models/Piece///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-piece/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/Piece/describe/#/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-piece/describe.html
+$dokka.location:com.bikeleasing.antoniotest.models/Piece/validatePosition/#kotlin.String/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-piece/validate-position.html
+$dokka.location:com.bikeleasing.antoniotest.models/Queen///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-queen/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/Queen/Queen/#kotlin.String/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-queen/-queen.html
+$dokka.location:com.bikeleasing.antoniotest.models/Rook///PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-rook/index.html
+$dokka.location:com.bikeleasing.antoniotest.models/Rook/Rook/#kotlin.String/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.models/-rook/-rook.html
+$dokka.location:com.bikeleasing.antoniotest.utils////PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.utils/index.html
+$dokka.location:com.bikeleasing.antoniotest.utils//readPositionsFromStdIn/#/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest.utils/read-positions-from-std-in.html
+$dokka.location:com.bikeleasing.antoniotest////PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest/index.html
+$dokka.location:com.bikeleasing.antoniotest//describeSetUp/#kotlin.collections.List[com.bikeleasing.antoniotest.models.Piece]/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest/describe-set-up.html
+$dokka.location:com.bikeleasing.antoniotest//main/#/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest/main.html
+$dokka.location:com.bikeleasing.antoniotest//validateSetUp/#kotlin.collections.List[com.bikeleasing.antoniotest.models.Piece]/PointingToDeclaration/-chess-factory/com.bikeleasing.antoniotest/validate-set-up.html
+com.bikeleasing.antoniotest
+com.bikeleasing.antoniotest.factory
+com.bikeleasing.antoniotest.models
+com.bikeleasing.antoniotest.utils
+

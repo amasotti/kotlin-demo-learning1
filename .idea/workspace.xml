@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c8dd14b-780c-418a-9ea1-ed7cc2e6b376" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/factory/PieceFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/factory/PieceFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/models/Piece.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/models/Piece.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +47,13 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ChessFactory" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="distribution" type="c8890929:TasksNode$1" />
+                <item name="application" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="ChessFactory" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -113,13 +118,13 @@
       <recent name="com.bikeleasing.antoniotest" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Gradle.ChessFactory [dokkaHtml]">
     <configuration name="ChessFactory [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -135,7 +140,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ChessFactory [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ChessFactory [dokkaGfm]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -146,7 +151,28 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="dokkaGfm" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ChessFactory [dokkaHtml]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="dokkaHtml" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -198,25 +224,23 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MainKtTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="ChessFactory [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
+        <option name="scriptParameters" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;com.bikeleasing.antoniotest.MainKtTest&quot;" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -238,29 +262,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bikeleasing.antoniotest.MainKt" />
-      <module name="ChessFactory.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Gradle.ChessFactory [run]" />
+      <item itemvalue="Gradle.ChessFactory [dokkaGfm]" />
+      <item itemvalue="Gradle.ChessFactory [dokkaHtml]" />
       <item itemvalue="Gradle.ChessFactory [installDist]" />
-      <item itemvalue="Gradle.MainKtTest" />
+      <item itemvalue="Gradle.ChessFactory [test]" />
       <item itemvalue="Gradle.ChessFactory [check]" />
-      <item itemvalue="Gradle.ChessFactory [clean]" />
       <item itemvalue="JUnit.TestChess" />
-      <item itemvalue="Kotlin.MainKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.ChessFactory [dokkaHtml]" />
         <item itemvalue="Gradle.ChessFactory [installDist]" />
-        <item itemvalue="Gradle.MainKtTest" />
+        <item itemvalue="Gradle.ChessFactory [test]" />
         <item itemvalue="Gradle.ChessFactory [check]" />
-        <item itemvalue="Gradle.ChessFactory [clean]" />
+        <item itemvalue="Gradle.ChessFactory [dokkaGfm]" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +289,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678003589343</updated>
-      <workItem from="1678003590538" duration="5247000" />
+      <workItem from="1678003590538" duration="8267000" />
     </task>
     <servers />
   </component>

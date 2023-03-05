@@ -8,10 +8,32 @@ package com.bikeleasing.antoniotest.models
 
 sealed class Piece(private val position: String) {
 
+    /**
+     * Get the position of the piece
+     *
+     * @return String
+     */
     private fun getPosition(): String {
         return position
     }
 
+    /**
+     * Describe the piece
+     * @return String
+     *
+     * @author Antonio Masotti
+     * @since 05.03.23
+     *
+     * ***Example***
+     * ```
+     * val piece = Pawn("a2")
+     * piece.describe()
+     * ```
+     * ***Output***
+     * ```
+     * "Pawn in position a2"
+     * ```
+     */
     fun describe(): String {
         return when (this) {
             is Pawn -> "Paw in position ${this.getPosition()}"
