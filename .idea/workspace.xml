@@ -8,12 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c8dd14b-780c-418a-9ea1-ed7cc2e6b376" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/factory/PieceFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/factory/PieceFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/models/Piece.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/models/Piece.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,7 +284,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678003589343</updated>
-      <workItem from="1678003590538" duration="8267000" />
+      <workItem from="1678003590538" duration="8596000" />
     </task>
     <servers />
   </component>
