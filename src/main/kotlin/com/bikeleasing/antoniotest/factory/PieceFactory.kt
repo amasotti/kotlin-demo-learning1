@@ -9,7 +9,7 @@ package com.bikeleasing.antoniotest.factory
 import com.bikeleasing.antoniotest.models.*
 import com.bikeleasing.antoniotest.models.Piece
 
-class PieceFactory(val positions: List<String>?) {
+class PieceFactory(private val positions: List<String>?) {
 
     fun createPieces(): List<Piece> {
         val pieces = mutableListOf<Piece>()
@@ -29,3 +29,4 @@ class PieceFactory(val positions: List<String>?) {
         return pieces
     }
 }
+

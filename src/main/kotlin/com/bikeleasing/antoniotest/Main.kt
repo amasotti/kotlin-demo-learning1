@@ -9,6 +9,7 @@ fun main() {
 
     val positions = listOf("Pdc3", "Rd1", "Nd8", "Bf1", "Qb1", "Kb3", "Bd2", "Ne2")
     val pieceFactory = PieceFactory(positions)
+
     val pieces = pieceFactory.createPieces()
 
     describeSetUp(pieces)

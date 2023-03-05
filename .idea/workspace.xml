@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9c8dd14b-780c-418a-9ea1-ed7cc2e6b376" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/factory/PieceFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/models/Piece.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/utils/InputReader.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/bikeleasing/antoniotest/MainKtTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/factory/PieceFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/bikeleasing/antoniotest/factory/PieceFactory.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,28 +113,7 @@
       <recent name="com.bikeleasing.antoniotest" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ChessFactory [installDist]">
-    <configuration name="ChessFactory [assembleDist]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="assembleDist" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="ChessFactory [check]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -265,22 +238,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bikeleasing.antoniotest.MainKt" />
+      <module name="ChessFactory.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Gradle.ChessFactory [run]" />
       <item itemvalue="Gradle.ChessFactory [installDist]" />
       <item itemvalue="Gradle.MainKtTest" />
-      <item itemvalue="Gradle.ChessFactory [assembleDist]" />
       <item itemvalue="Gradle.ChessFactory [check]" />
       <item itemvalue="Gradle.ChessFactory [clean]" />
       <item itemvalue="JUnit.TestChess" />
+      <item itemvalue="Kotlin.MainKt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.ChessFactory [installDist]" />
         <item itemvalue="Gradle.MainKtTest" />
         <item itemvalue="Gradle.ChessFactory [check]" />
         <item itemvalue="Gradle.ChessFactory [clean]" />
-        <item itemvalue="Gradle.ChessFactory [assembleDist]" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +272,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678003589343</updated>
-      <workItem from="1678003590538" duration="3884000" />
+      <workItem from="1678003590538" duration="5247000" />
     </task>
     <servers />
   </component>

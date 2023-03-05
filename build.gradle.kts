@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     kotlin("jvm") version "1.8.0"
     application
@@ -14,12 +16,20 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
-tasks.test {
+tasks.withType<Test> {
     useJUnitPlatform()
+}
+
+tasks.withType<KotlinCompile> {
+    kotlinOptions{
+        freeCompilerArgs = listOf("-Xruntime-logs=gc=info")
+        jvmTarget = "17"
+    }
 }
 
 kotlin {
     jvmToolchain(17)
+
 }
 
 application {
