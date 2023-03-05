@@ -19,9 +19,9 @@ tasks.test {
 }
 
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(17)
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("com.bikeleasing.antoniotest.MainKt")
 }
